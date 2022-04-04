@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Titillium+Web&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 0.5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,5);
+    background-color:#a9f2ff;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color:#0b5c07 !important;
+}
+#navbar .navbar-brand span:hover{
+    color: #53c51e;
+    transition: .2s;
+}
+
+#navbarSupportedContent a{
+     color:black;
+     border-bottom: 2px solid transparent;
+     font-weight: bold !important;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #0b5c07;
+}
+#navbarSupportedContent button:hover{
+    background: rgb(143, 143, 143);
+    color: rgb(255, 255, 255);
+    
+}
+/**home**/
+
+#navbarSupportedContent button{
+    background: rgb(255, 255, 255);
+    width: 5rem;
+    border-radius: 15px;
+    font-weight: bold;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+background:url(./images/cocowaterbg.jpg);
+background-size: cover;
+background-position: center;
+flex-direction: column;
+}
+#home h1{
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 0px 1px 0px rgb(255, 255, 255)
+    0px 2px 0px #ccc,
+    0px 3px 0px #ccc;
+}
+#home p{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+#home .input-group{
+    width: 40%;
+    height: 45px;
+}
+.signin{
+    background: #7FFFD4 !important;
+    color: black;
+    font-weight: bold !important;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.7);
+}
+
+/*DESTINATIONS*/
+
+#destinations{
+    background: #c9c7c7;
+}
+#destinations h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+#destinations img{
+    width: 250px;
+    height: 200px;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    background: #ffffff !important;
+    border: none !important;
+    box-shadow: 15px 15px 20px rgba(0,0,0,.7),inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+    transition: .2s;
+}
+.card:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,.7),inset -4px -4px 10px white;
+    transition: .2s;
+}
+
+
+
+/**corousal**/
+
+.carousel-caption h5{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+
+.carousel-caption p{
+    font-size: 20px;
+    color: white;
+}
+#packages{
+    background: #ffffff;
+}
+
+/**contact**/
+
+#contact img{
+    height: 100%;
+}
+
+.box{
+    width: 80% !important;
+    margin-top: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#contact input{
+    margin: 10px 0px;
+}
+
+#contact textarea{
+    margin: 10px 0px;
+}
+
+/**footer**/
+
+footer{
+    width: 100%;
+    height: 30px;
+    background: rgba(0,0,0,.9);
+    margin-top: -30px;
+    text-align: center;
+    color: white;
+    padding: 3px;
+}
+
+/**login**/
+
+#login img{
+    height: 100%;
+}
+
+.box{
+    width: 60% !important;
+    margin-top: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#login input{
+    margin: 6px 0px;
+}
+#login{
+    background: #a9f2ff;
+}
+#login .row{
+    background: white;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.signin:hover{
+    border: 1px solid;
+ 
+}
+#login .row{
+    box-shadow: 12px 12px 22px rgb(128, 128, 128); 
+}
+#login a{
+    text-decoration: none;
+}
+#login .back{
+    background: #ffffff;
+    width: 6rem;
+    border-radius: 15px;
+    font-weight: bold;
+}
+#login .back:hover{
+    background: rgb(143, 143, 143);
+    color: #ffffff;
+}
+
+/**signup**/
+
+#signup img{
+    height: 100%;
+}
+
+.box{
+    width: 60% !important;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#signup input{
+    margin: 6px 0px;
+}
+#signup{
+    background: #a9f2ff;
+}
+#signup .row{
+    background: white;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.signin:hover{
+    border: 1px solid;
+ 
+}
+#signup .row{
+    box-shadow: 12px 12px 22px grey; 
+}
+#signup a{
+    text-decoration: none;
+}
+
+#signup .back{
+    background: #ffffff;
+    width: 6rem;
+    border-radius: 15px;
+    font-weight: bold;
+}
+#signup .back:hover{
+    background: rgb(143, 143, 143);
+    color: rgb(255, 255, 255);
+}
+
+
+/**trivandrum**/
+
+#tvm{
+    background: linear-gradient(rgb(117, 134, 180),rgb(40, 38, 58));
+}
+
+#tvm h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: white;
+}
+#tvm p{
+    color: white;
+}
+#tvm .row{
+    border-radius: 30px;
+    overflow: hidden;
+    background: rgb(61, 127, 189);
+}
+#tvm img{
+    height: 100%;
+}
+#tvm .back{
+    background: #ffffff;
+    width: 6rem;
+    border-radius: 15px;
+    font-weight: bold;
+}
+#tvm button:hover{
+    background: rgb(143, 143, 143);
+    color: rgb(255, 255, 255);
+}
+
+/**kollam**/
+
+#klm{
+    background: linear-gradient(rgb(108, 180, 171),rgb(81, 121, 121));
+}
+
+#klm h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: white;
+}
+#klm p{
+    color: white;
+}
+#klm .row{
+    border-radius: 30px;
+    overflow: hidden;
+    background: rgb(65, 147, 161);
+}
+#klm img{
+    height: 100%;
+}
+#klm .back{
+    background: #ffffff;
+    width: 6rem;
+    border-radius: 15px;
+    font-weight: bold;
+}
+#klm button:hover{
+    background: rgb(143, 143, 143);
+    color: rgb(255, 255, 255);
+}
+
+
+/**pathanamthitta**/
+
+#pta{
+    background: linear-gradient(rgb(117, 179, 117),rgb(110, 155, 101));
+}
+
+#pta h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: white;
+}
+#pta p{
+    color: white;
+}
+#pta .row{
+    border-radius: 30px;
+    overflow: hidden;
+    background: rgb(110, 148, 78);
+}
+#pta img{
+    height: 100%;
+}
+#pta .back{
+    background: #ffffff;
+    width: 6rem;
+    border-radius: 15px;
+    font-weight: bold;
+}
+#pta button:hover{
+    background: rgb(143, 143, 143);
+    color: rgb(255, 255, 255);
+}
+
+
+/**alappuzha**/
+
+#alp{
+    background: linear-gradient(rgb(202, 207, 121),rgb(141, 163, 79));
+}
+
+#alp h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: white;
+}
+#alp p{
+    color: white;
+}
+#alp .row{
+    border-radius: 30px;
+    overflow: hidden;
+    background: rgb(155, 180, 86);
+}
+#alp img{
+    height: 100%;
+}
+#alp .back{
+    background: #ffffff;
+    width: 6rem;
+    border-radius: 15px;
+    font-weight: bold;
+}
+#alp button:hover{
+    background: rgb(143, 143, 143);
+    color: rgb(255, 255, 255);
+}
+
+
+/**kottayam**/
+
+#ktm{
+    background: linear-gradient(rgb(175, 99, 194),rgb(143, 73, 160));
+}
+
+#ktm h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: white;
+}
+#ktm p{
+    color: white;
+}
+#ktm .row{
+    border-radius: 30px;
+    overflow: hidden;
+    background: rgb(139, 76, 126);
+}
+#ktm img{
+    height: 100%;
+}
+#ktm .back{
+    background: #ffffff;
+    width: 6rem;
+    border-radius: 15px;
+    font-weight: bold;
+}
+#ktm button:hover{
+    background: rgb(143, 143, 143);
+    color: rgb(255, 255, 255);
+}
