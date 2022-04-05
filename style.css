@@ -270,7 +270,7 @@ form{
 /**trivandrum**/
 
 #tvm{
-    background: linear-gradient(rgb(117, 134, 180),rgb(40, 38, 58));
+    background:#62bebe
 }
 
 #tvm h1{
@@ -284,7 +284,7 @@ form{
 #tvm .row{
     border-radius: 30px;
     overflow: hidden;
-    background: rgb(61, 127, 189);
+    background: #3d9185;
 }
 #tvm img{
     height: 100%;
@@ -300,10 +300,12 @@ form{
     color: rgb(255, 255, 255);
 }
 
+
+
 /**kollam**/
 
 #klm{
-    background: linear-gradient(rgb(108, 180, 171),rgb(81, 121, 121));
+    background:#62bebe;
 }
 
 #klm h1{
@@ -317,7 +319,7 @@ form{
 #klm .row{
     border-radius: 30px;
     overflow: hidden;
-    background: rgb(65, 147, 161);
+    background:#3d9185;
 }
 #klm img{
     height: 100%;
@@ -337,7 +339,7 @@ form{
 /**pathanamthitta**/
 
 #pta{
-    background: linear-gradient(rgb(117, 179, 117),rgb(110, 155, 101));
+    background: #62bebe;
 }
 
 #pta h1{
@@ -351,7 +353,7 @@ form{
 #pta .row{
     border-radius: 30px;
     overflow: hidden;
-    background: rgb(110, 148, 78);
+    background: #3d9185;
 }
 #pta img{
     height: 100%;
@@ -371,7 +373,7 @@ form{
 /**alappuzha**/
 
 #alp{
-    background: linear-gradient(rgb(202, 207, 121),rgb(141, 163, 79));
+    background: #62bebe;
 }
 
 #alp h1{
@@ -385,7 +387,7 @@ form{
 #alp .row{
     border-radius: 30px;
     overflow: hidden;
-    background: rgb(155, 180, 86);
+    background: #3d9185;
 }
 #alp img{
     height: 100%;
@@ -405,7 +407,7 @@ form{
 /**kottayam**/
 
 #ktm{
-    background: linear-gradient(rgb(175, 99, 194),rgb(143, 73, 160));
+    background: #62bebe;
 }
 
 #ktm h1{
@@ -419,7 +421,7 @@ form{
 #ktm .row{
     border-radius: 30px;
     overflow: hidden;
-    background: rgb(139, 76, 126);
+    background: #3d9185;
 }
 #ktm img{
     height: 100%;
