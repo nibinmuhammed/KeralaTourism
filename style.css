@@ -174,8 +174,9 @@ footer{
     height: 100%;
 }
 
-.box{
-    width: 60% !important;
+#login .box{
+    width: 80% !important;
+    height: 80% !important;
     margin-top: 10px;
 }
 
@@ -222,10 +223,10 @@ form{
     height: 100%;
 }
 
-.box{
-    width: 60% !important;
+#signup .box{
+    width: 80% !important;
+    height: 80% !important;
     margin-top: 10px;
-    margin-bottom: 30px;
 }
 
 form{
