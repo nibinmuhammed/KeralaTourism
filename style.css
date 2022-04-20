@@ -1,3 +1,5 @@
+
+   
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Titillium+Web&display=swap');
 *{
     margin: 0;
@@ -72,9 +74,19 @@ flex-direction: column;
     color: rgb(255, 255, 255);
 }
 #home .input-group{
-    width: 40%;
-    height: 45px;
+    width: 40% !important;
+    height: 45px !important;
 }
+
+
+#form1.btn{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
 .signin{
     background: #7FFFD4 !important;
     color: black;
@@ -143,18 +155,73 @@ flex-direction: column;
     margin-top: 10px;
 }
 
-form{
+#contact .form{
     display: flex;
     flex-direction: column;
+
 }
 
-#contact input{
-    margin: 10px 0px;
+
+.form-control{
+    
+    margin-bottom: 10px !important;
+	padding-bottom: 20px !important;
+    position: relative;
+	
+}
+.form-control i{
+    visibility: hidden;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 480px;
+}
+.form-control input:focus {
+    outline: none;
+    border-color: #777;
 }
 
-#contact textarea{
-    margin: 10px 0px;
+.form-control.success input{
+    border-color: #2ecc71;
 }
+.form-control.error input{
+    border-color: red;
+}
+
+.form-control.success i.fa-circle-check{
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.form-control.error i.fa-triangle-exclamation{
+    color: red;
+    visibility: visible;
+}
+
+.form-control small{
+    color: red;
+    visibility: hidden;
+    position: absolute;
+    
+    
+}
+.form-control.error small{
+    visibility: visible;
+}
+
+
+
+.form-control input{
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
+
+
+
 
 /**footer**/
 
@@ -180,13 +247,13 @@ footer{
     margin-top: 10px;
 }
 
-form{
+#login form{
     display: flex;
     flex-direction: column;
 }
 
 #login input{
-    margin: 6px 0px;
+    margin: 0px 0px;
 }
 #login{
     background: #a9f2ff;
@@ -229,7 +296,7 @@ form{
     margin-top: 10px;
 }
 
-form{
+#signup form{
     display: flex;
     flex-direction: column;
 }
@@ -265,6 +332,41 @@ form{
 #signup .back:hover{
     background: rgb(143, 143, 143);
     color: rgb(255, 255, 255);
+}
+
+#form3 .form-control i{
+    visibility: hidden;
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 480px;
+}
+
+
+/*password strength*/
+
+#toggle{
+    position: absolute;
+    top: 17px;
+    right: 15px;
+    color: #808080;
+    cursor: pointer;
+}
+.strength{
+    width: 25%;
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    bottom: 5px;
+}
+#strength-bar{
+    background-color: #dcdcdc;
+    height: 10px;
+    position: relative;
+}
+.form-control p{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
 }
 
 
@@ -437,3 +539,8 @@ form{
     background: rgb(143, 143, 143);
     color: rgb(255, 255, 255);
 }
+
+
+
+
+
